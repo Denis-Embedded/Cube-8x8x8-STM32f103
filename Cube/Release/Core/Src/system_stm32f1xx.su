@@ -1,0 +1,2 @@
+system_stm32f1xx.cpp:176:6:void SystemInit()	0	static
+system_stm32f1xx.cpp:225:6:void SystemCoreClockUpdate()	0	static

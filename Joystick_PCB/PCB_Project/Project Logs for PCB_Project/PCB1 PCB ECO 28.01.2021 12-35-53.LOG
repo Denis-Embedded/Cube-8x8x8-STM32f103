@@ -1,0 +1,7 @@
+Added Component: Designator=U1(HC-05)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetDD1_21 Pin=U1-2
+Added Pin To Net: NetName=NetDD1_22 Pin=U1-3
+Added Pin To Net: NetName=GND Pin=U1-4
+Added Pin To Net: NetName=NetC5_2 Pin=U1-5
+Added Member To Class: ClassName=Sheet3 Member=Component U1 HC-05

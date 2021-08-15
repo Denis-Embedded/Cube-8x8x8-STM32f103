@@ -1,0 +1,121 @@
+Change Component Designator: OldDesignator=C2 NewDesignator=C?
+Change Component Designator: OldDesignator=DA1 NewDesignator=DA?
+Change Component Designator: OldDesignator=DD1 NewDesignator=DD?
+Change Component Designator: OldDesignator=DD2 NewDesignator=DD?
+Change Component Designator: OldDesignator=DD3 NewDesignator=DD?
+Change Component Designator: OldDesignator=DD4 NewDesignator=DD?
+Change Component Designator: OldDesignator=DD5 NewDesignator=DD?
+Change Component Designator: OldDesignator=DD6 NewDesignator=DD?
+Change Component Designator: OldDesignator=DD7 NewDesignator=DD?
+Change Component Designator: OldDesignator=DD8 NewDesignator=DD?
+Change Component Designator: OldDesignator=DD9 NewDesignator=DD?
+Change Component Designator: OldDesignator=DD10 NewDesignator=DD?
+Change Component Designator: OldDesignator=R1 NewDesignator=R?
+Change Component Designator: OldDesignator=R2 NewDesignator=R?
+Change Component Designator: OldDesignator=R3 NewDesignator=R?
+Change Component Designator: OldDesignator=RP1 NewDesignator=RP?
+Change Component Designator: OldDesignator=U1 NewDesignator=U?
+Change Component Designator: OldDesignator=XS1 NewDesignator=XS?
+Change Component Designator: OldDesignator=Ñ1 NewDesignator=C?
+Change Component Designator: OldDesignator=Ñ3 NewDesignator=C?
+Change Component Designator: OldDesignator=Ñ4 NewDesignator=C?
+Change Component Designator: OldDesignator=Ñ5 NewDesignator=C?
+Change Component Designator: OldDesignator=Ñ6 NewDesignator=Ñ?
+Change Component Designator: OldDesignator=Ñ7 NewDesignator=Ñ?
+Change Component Designator: OldDesignator=Ñ8 NewDesignator=Ñ?
+Change Component Designator: OldDesignator=Ñ9 NewDesignator=Ñ?
+Change Component Designator: OldDesignator=Ñ10 NewDesignator=Ñ?
+Change Component Designator: OldDesignator=Ñ11 NewDesignator=Ñ?
+Change Component Designator: OldDesignator=Ñ12 NewDesignator=Ñ?
+Change Component Designator: OldDesignator=Ñ13 NewDesignator=Ñ?
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetC?_2
+Change Net Name : Old Net Name=NetDA1_1 New Net Name=NetDA?_1
+Change Net Name : Old Net Name=NetDA1_3 New Net Name=NetDA?_3
+Change Net Name : Old Net Name=NetDD1_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD1_6 New Net Name=NetDD?_4
+Change Net Name : Old Net Name=NetDD1_7 New Net Name=NetDD?_3
+Change Net Name : Old Net Name=NetDD1_13 New Net Name=NetDD?_13
+Change Net Name : Old Net Name=NetDD1_14 New Net Name=NetDD?_14
+Change Net Name : Old Net Name=NetDD1_15 New Net Name=NetDD?_15
+Change Net Name : Old Net Name=NetDD1_16 New Net Name=NetDD?_16
+Change Net Name : Old Net Name=NetDD2_1 New Net Name=NetDD?_1
+Change Net Name : Old Net Name=NetDD2_2 New Net Name=NetDD?_2
+Change Net Name : Old Net Name=NetDD2_3 New Net Name=NetDD?_3
+Change Net Name : Old Net Name=NetDD2_4 New Net Name=NetDD?_4
+Change Net Name : Old Net Name=NetDD2_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD2_6 New Net Name=NetDD?_6
+Change Net Name : Old Net Name=NetDD2_7 New Net Name=NetDD?_7
+Change Net Name : Old Net Name=NetDD2_9 New Net Name=NetDD?_9
+Change Net Name : Old Net Name=NetDD2_15 New Net Name=NetDD?_15
+Change Net Name : Old Net Name=NetDD3_1 New Net Name=NetDD?_1
+Change Net Name : Old Net Name=NetDD3_2 New Net Name=NetDD?_2
+Change Net Name : Old Net Name=NetDD3_3 New Net Name=NetDD?_3
+Change Net Name : Old Net Name=NetDD3_4 New Net Name=NetDD?_4
+Change Net Name : Old Net Name=NetDD3_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD3_6 New Net Name=NetDD?_6
+Change Net Name : Old Net Name=NetDD3_7 New Net Name=NetDD?_7
+Change Net Name : Old Net Name=NetDD3_9 New Net Name=NetDD?_9
+Change Net Name : Old Net Name=NetDD3_15 New Net Name=NetDD?_15
+Change Net Name : Old Net Name=NetDD4_1 New Net Name=NetDD?_1
+Change Net Name : Old Net Name=NetDD4_2 New Net Name=NetDD?_2
+Change Net Name : Old Net Name=NetDD4_3 New Net Name=NetDD?_3
+Change Net Name : Old Net Name=NetDD4_4 New Net Name=NetDD?_4
+Change Net Name : Old Net Name=NetDD4_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD4_6 New Net Name=NetDD?_6
+Change Net Name : Old Net Name=NetDD4_7 New Net Name=NetDD?_7
+Change Net Name : Old Net Name=NetDD4_9 New Net Name=NetDD?_9
+Change Net Name : Old Net Name=NetDD4_15 New Net Name=NetDD?_15
+Change Net Name : Old Net Name=NetDD5_1 New Net Name=NetDD?_1
+Change Net Name : Old Net Name=NetDD5_2 New Net Name=NetDD?_2
+Change Net Name : Old Net Name=NetDD5_3 New Net Name=NetDD?_3
+Change Net Name : Old Net Name=NetDD5_4 New Net Name=NetDD?_4
+Change Net Name : Old Net Name=NetDD5_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD5_6 New Net Name=NetDD?_6
+Change Net Name : Old Net Name=NetDD5_7 New Net Name=NetDD?_7
+Change Net Name : Old Net Name=NetDD5_9 New Net Name=NetDD?_9
+Change Net Name : Old Net Name=NetDD5_15 New Net Name=NetDD?_15
+Change Net Name : Old Net Name=NetDD6_1 New Net Name=NetDD?_1
+Change Net Name : Old Net Name=NetDD6_2 New Net Name=NetDD?_2
+Change Net Name : Old Net Name=NetDD6_3 New Net Name=NetDD?_3
+Change Net Name : Old Net Name=NetDD6_4 New Net Name=NetDD?_4
+Change Net Name : Old Net Name=NetDD6_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD6_6 New Net Name=NetDD?_6
+Change Net Name : Old Net Name=NetDD6_7 New Net Name=NetDD?_7
+Change Net Name : Old Net Name=NetDD6_9 New Net Name=NetDD?_9
+Change Net Name : Old Net Name=NetDD6_15 New Net Name=NetDD?_15
+Change Net Name : Old Net Name=NetDD7_1 New Net Name=NetDD?_1
+Change Net Name : Old Net Name=NetDD7_2 New Net Name=NetDD?_2
+Change Net Name : Old Net Name=NetDD7_3 New Net Name=NetDD?_3
+Change Net Name : Old Net Name=NetDD7_4 New Net Name=NetDD?_4
+Change Net Name : Old Net Name=NetDD7_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD7_6 New Net Name=NetDD?_6
+Change Net Name : Old Net Name=NetDD7_7 New Net Name=NetDD?_7
+Change Net Name : Old Net Name=NetDD7_9 New Net Name=NetDD?_9
+Change Net Name : Old Net Name=NetDD7_15 New Net Name=NetDD?_15
+Change Net Name : Old Net Name=NetDD8_1 New Net Name=NetDD?_1
+Change Net Name : Old Net Name=NetDD8_2 New Net Name=NetDD?_2
+Change Net Name : Old Net Name=NetDD8_3 New Net Name=NetDD?_3
+Change Net Name : Old Net Name=NetDD8_4 New Net Name=NetDD?_4
+Change Net Name : Old Net Name=NetDD8_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD8_6 New Net Name=NetDD?_6
+Change Net Name : Old Net Name=NetDD8_7 New Net Name=NetDD?_7
+Change Net Name : Old Net Name=NetDD8_9 New Net Name=NetDD?_9
+Change Net Name : Old Net Name=NetDD8_15 New Net Name=NetDD?_15
+Change Net Name : Old Net Name=NetDD9_1 New Net Name=NetDD?_1
+Change Net Name : Old Net Name=NetDD9_2 New Net Name=NetDD?_2
+Change Net Name : Old Net Name=NetDD9_3 New Net Name=NetDD?_3
+Change Net Name : Old Net Name=NetDD9_4 New Net Name=NetDD?_4
+Change Net Name : Old Net Name=NetDD9_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD9_6 New Net Name=NetDD?_6
+Change Net Name : Old Net Name=NetDD9_7 New Net Name=NetDD?_7
+Change Net Name : Old Net Name=NetDD9_9 New Net Name=NetDD?_2
+Change Net Name : Old Net Name=NetDD9_15 New Net Name=NetDD?_15
+Change Net Name : Old Net Name=NetDD10_5 New Net Name=NetDD?_5
+Change Net Name : Old Net Name=NetDD10_6 New Net Name=NetDD?_6
+Change Net Name : Old Net Name=NetDD10_7 New Net Name=NetDD?_7
+Change Net Name : Old Net Name=NetDD10_8 New Net Name=NetDD?_8
+Change Net Name : Old Net Name=NetDD10_9 New Net Name=NetDD?_9
+Change Net Name : Old Net Name=NetDD10_10 New Net Name=NetDD?_10
+Change Net Name : Old Net Name=NetDD10_11 New Net Name=NetDD?_11
+Change Net Name : Old Net Name=NetDD10_12 New Net Name=NetDD?_12
+Change Net Name : Old Net Name=NetDD10_15 New Net Name=NetDD?_15

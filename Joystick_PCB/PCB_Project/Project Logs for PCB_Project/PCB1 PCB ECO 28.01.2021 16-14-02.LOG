@@ -1,0 +1,7 @@
+Added Component: Designator=XP2(UART)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetDD1_44 Pin=XP2-0
+Added Pin To Net: NetName=NetC10_2 Pin=XP2-1
+Added Pin To Net: NetName=NetDD1_30 Pin=XP2-2
+Added Pin To Net: NetName=NetDD1_31 Pin=XP2-3
+Added Member To Class: ClassName=Sheet1 Member=Component XP2 UART

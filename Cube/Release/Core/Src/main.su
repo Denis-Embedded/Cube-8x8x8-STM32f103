@@ -1,0 +1,5 @@
+main.cpp:99:6:void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef*)	8	static
+main.cpp:211:6:void SystemClock_Config()	96	static
+main.cpp:135:5:int main()	104	static
+main.cpp:513:6:void Error_Handler()	0	static
+main.cpp:519:1:cpp)	16	static

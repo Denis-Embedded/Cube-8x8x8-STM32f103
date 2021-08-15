@@ -1,0 +1,8 @@
+Added Component: Designator=L1(inductor SMD)
+Added Component: Designator=VD1(SS34)
+Added Pin To Net: NetName=NetC4_2 Pin=L1-1
+Added Pin To Net: NetName=NetDA3_1 Pin=L1-2
+Added Pin To Net: NetName=NetDA3_1 Pin=VD1-1
+Added Pin To Net: NetName=NetC5_2 Pin=VD1-2
+Added Member To Class: ClassName=Sheet3 Member=Component L1 22uH
+Added Member To Class: ClassName=Sheet3 Member=Component VD1 SS34

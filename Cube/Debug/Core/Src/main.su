@@ -1,0 +1,6 @@
+main.cpp:99:6:void HAL_ADC_ConvCpltCallback(ADC_HandleTypeDef*)	8	static
+main.cpp:118:6:void HAL_UART_RxCpltCallback(UART_HandleTypeDef*)	24	static
+main.cpp:211:6:void SystemClock_Config()	104	static
+main.cpp:139:5:int main()	88	static
+main.cpp:513:6:void Error_Handler()	0	static
+main.cpp:519:1:cpp)	20	static

@@ -1,0 +1,16 @@
+Change Component Designator: OldDesignator=C2 NewDesignator=C3
+Change Component Designator: OldDesignator=C3 NewDesignator=C2
+Change Component Designator: OldDesignator=DA1 NewDesignator=DA2
+Change Net Name : Old Net Name=NetC2_1 New Net Name=NetC3_1
+Change Net Name : Old Net Name=NetC2_2 New Net Name=NetC3_2
+Change Net Name : Old Net Name=NetDA1_1 New Net Name=NetDA2_1
+Change Net Name : Old Net Name=NetDA1_2 New Net Name=NetDA2_2
+Change Net Name : Old Net Name=NetDA1_3 New Net Name=NetDA2_3
+Added Pin To Net: NetName=NetC2_2 Pin=C2-2
+Added Pin To Net: NetName=NetC2_2 Pin=XS1-1
+Added Net: Name=NetC2_2
+Added Pin To Net: NetName=NetDA1_2 Pin=R3-2
+Added Net: Name=NetDA1_2
+Added Pin To Net: NetName=NetDA1_7 Pin=DD1-2
+Added Net: Name=NetDA1_7
+Added Member To Class: ClassName=Sheet3 Member=Component DA2 DA?

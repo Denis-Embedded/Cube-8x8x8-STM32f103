@@ -1,0 +1,9 @@
+Added Component: Designator=VT1(TSOP65P600X120-8N)
+Add component. Clean all parameters for all variants
+Added Pin To Net: NetName=NetVT1_1 Pin=VT1-1
+Added Pin To Net: NetName=NetVT1_1 Pin=VT1-1
+Added Pin To Net: NetName=NetC2_1 Pin=VT1-2
+Added Pin To Net: NetName=NetDA2_1 Pin=VT1-4
+Added Pin To Net: NetName=NetDA2_3 Pin=VT1-5
+Added Pin To Net: NetName=GND Pin=VT1-6
+Added Member To Class: ClassName=Sheet3 Member=Component VT1 FS8205A(MOSFET,TSSOP-8)

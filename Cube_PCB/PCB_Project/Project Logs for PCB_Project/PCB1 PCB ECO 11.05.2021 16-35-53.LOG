@@ -1,0 +1,5 @@
+Change Component Designator: OldDesignator=VT5 NewDesignator=VT6
+Change Component Designator: OldDesignator=VT6 NewDesignator=VT5
+Change Net Name : Old Net Name=NetVT5_3 New Net Name=NetVT6_3
+Change Net Name : Old Net Name=NetVT6_3 New Net Name=NetVT5_3
+Added Member To Class: ClassName=Sheet1 Member=Component VT6 P-channel

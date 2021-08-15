@@ -1,0 +1,65 @@
+Removed Pin From Net: NetName=NetC1_2 Pin=C13-2
+Removed Pin From Net: NetName=NetC1_2 Pin=DA1-2
+Removed Pin From Net: NetName=NetC1_2 Pin=DA1-2
+Removed Pin From Net: NetName=NetC1_2 Pin=R1-1
+Removed Pin From Net: NetName=NetC1_2 Pin=RP1-3
+Removed Pin From Net: NetName=NetC1_2 Pin=VT1-3
+Removed Pin From Net: NetName=NetC1_2 Pin=VT2-3
+Removed Pin From Net: NetName=NetC1_2 Pin=VT3-3
+Removed Pin From Net: NetName=NetC1_2 Pin=VT4-3
+Removed Pin From Net: NetName=NetDD10_4 Pin=VT5-1
+Removed Pin From Net: NetName=NetC1_2 Pin=VT5-3
+Removed Pin From Net: NetName=NetDD10_5 Pin=VT6-1
+Removed Pin From Net: NetName=NetC1_2 Pin=VT6-3
+Removed Pin From Net: NetName=NetC1_2 Pin=VT7-3
+Removed Pin From Net: NetName=NetC1_2 Pin=VT8-3
+Change Component Comment : Designator=VT1 Old Comment=2N7002 New Comment=P-channel
+Change Component Comment : Designator=VT2 Old Comment=2N7002 New Comment=P-channel
+Change Component Comment : Designator=VT3 Old Comment=2N7002 New Comment=P-channel
+Change Component Comment : Designator=VT4 Old Comment=2N7002 New Comment=P-channel
+Change Component Comment : Designator=VT5 Old Comment=2N7002 New Comment=P-channel
+Change Component Comment : Designator=VT6 Old Comment=2N7002 New Comment=P-channel
+Change Component Comment : Designator=VT7 Old Comment=2N7002 New Comment=P-channel
+Change Component Comment : Designator=VT8 Old Comment=2N7002 New Comment=P-channel
+Added Pin To Net: NetName=NetC1_2 Pin=C10-2
+Added Pin To Net: NetName=NetC1_2 Pin=C11-2
+Added Pin To Net: NetName=NetC1_2 Pin=C12-2
+Added Pin To Net: NetName=NetC1_2 Pin=DA1-1
+Added Pin To Net: NetName=NetC1_2 Pin=DD1-23
+Added Pin To Net: NetName=NetC1_2 Pin=U1-5
+Added Pin To Net: NetName=NetC1_2 Pin=VT1-2
+Added Pin To Net: NetName=NetC1_2 Pin=VT2-2
+Added Pin To Net: NetName=NetC1_2 Pin=VT3-2
+Added Pin To Net: NetName=NetC1_2 Pin=VT4-2
+Added Pin To Net: NetName=NetDD10_5 Pin=VT5-1
+Added Pin To Net: NetName=NetC1_2 Pin=VT5-2
+Added Pin To Net: NetName=NetDD10_4 Pin=VT6-1
+Added Pin To Net: NetName=NetC1_2 Pin=VT6-2
+Added Pin To Net: NetName=NetC1_2 Pin=VT7-2
+Added Pin To Net: NetName=NetC1_2 Pin=VT8-2
+Added Pin To Net: NetName=NetC1_2 Pin=XS1-1
+Change Net Name : Old Net Name=NetC1_2 New Net Name=+5
+Added Pin To Net: NetName=+3,3V Pin=C13-2
+Added Pin To Net: NetName=+3,3V Pin=DA1-2
+Added Pin To Net: NetName=+3,3V Pin=DA1-2
+Added Pin To Net: NetName=+3,3V Pin=R1-1
+Added Pin To Net: NetName=+3,3V Pin=RP1-3
+Added Net: Name=+3,3V
+Added Pin To Net: NetName=NetVT1_3 Pin=VT1-3
+Added Net: Name=NetVT1_3
+Added Pin To Net: NetName=NetVT2_3 Pin=VT2-3
+Added Net: Name=NetVT2_3
+Added Pin To Net: NetName=NetVT3_3 Pin=VT3-3
+Added Net: Name=NetVT3_3
+Added Pin To Net: NetName=NetVT4_3 Pin=VT4-3
+Added Net: Name=NetVT4_3
+Added Pin To Net: NetName=NetVT5_3 Pin=VT5-3
+Added Net: Name=NetVT5_3
+Added Pin To Net: NetName=NetVT6_3 Pin=VT6-3
+Added Net: Name=NetVT6_3
+Added Pin To Net: NetName=NetVT7_3 Pin=VT7-3
+Added Net: Name=NetVT7_3
+Added Pin To Net: NetName=NetVT8_3 Pin=VT8-3
+Added Net: Name=NetVT8_3
+Added Member To Class: ClassName=Sheet1 Member=Component C10 0.1uF
+Added Member To Class: ClassName=Sheet1 Member=Component C12 0.1uF

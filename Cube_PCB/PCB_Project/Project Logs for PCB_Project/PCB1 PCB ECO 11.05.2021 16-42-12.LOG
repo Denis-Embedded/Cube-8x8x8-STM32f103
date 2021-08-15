@@ -1,0 +1,34 @@
+Added Component: Designator=R67(RESC2113X06N)
+Added Component: Designator=R68(RESC2113X06N)
+Added Component: Designator=R69(RESC2113X06N)
+Added Component: Designator=R70(RESC2113X06N)
+Added Component: Designator=R71(RESC2113X06N)
+Added Component: Designator=R72(RESC2113X06N)
+Added Component: Designator=R73(RESC2113X06N)
+Added Component: Designator=R74(RESC2113X06N)
+Added Pin To Net: NetName=+5 Pin=R67-1
+Added Pin To Net: NetName=NetDD10_15 Pin=R67-2
+Added Pin To Net: NetName=+5 Pin=R68-1
+Added Pin To Net: NetName=NetDD10_1 Pin=R68-2
+Added Pin To Net: NetName=+5 Pin=R69-1
+Added Pin To Net: NetName=NetDD10_2 Pin=R69-2
+Added Pin To Net: NetName=+5 Pin=R70-1
+Added Pin To Net: NetName=NetDD10_3 Pin=R70-2
+Added Pin To Net: NetName=+5 Pin=R71-1
+Added Pin To Net: NetName=NetDD10_4 Pin=R71-2
+Added Pin To Net: NetName=+5 Pin=R72-1
+Added Pin To Net: NetName=NetDD10_5 Pin=R72-2
+Added Pin To Net: NetName=+5 Pin=R73-1
+Added Pin To Net: NetName=NetDD10_6 Pin=R73-2
+Added Pin To Net: NetName=+5 Pin=R74-1
+Added Pin To Net: NetName=NetDD10_7 Pin=R74-2
+Added Class: Name=Sheet2
+Added Member To Class: ClassName=Sheet1 Member=Component R67 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R68 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R69 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R70 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R71 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R72 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R73 10k
+Added Member To Class: ClassName=Sheet1 Member=Component R74 10k
+Added Member To Class: ClassName=Sheet1 Member=Component VT6 P-channel

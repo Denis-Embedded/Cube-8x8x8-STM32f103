@@ -1,0 +1,2 @@
+Menu.cpp:10:6:void SwitchingModes()	8	static
+Menu.cpp:26:6:void ChangingSpeed()	8	static

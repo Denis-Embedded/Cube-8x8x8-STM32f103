@@ -1,0 +1,21 @@
+Cube.cpp:172:6:void Cube::constChangeBrightnes()	8	static
+Cube.cpp:267:6:void Cube::walkingCube()	24	static
+Cube.cpp:218:6:void Cube::text()	16	static
+Cube.cpp:324:6:void Cube::rain()	24	static
+Cube.cpp:157:6:void Cube::lightCube()	8	static
+Cube.cpp:15:6:void Cube::printFrame()	36	static
+Cube.cpp:46:6:void Cube::setSpeed(int16_t)	0	static
+Cube.cpp:51:9:int32_t Cube::getSpeed()	0	static
+Cube.cpp:56:7:Modes Cube::getMode()	0	static
+Cube.cpp:61:6:void Cube::setDot(uint8_t, uint8_t, uint8_t, uint8_t)	8	static
+Cube.cpp:69:6:void Cube::changeMode()	8	static
+Cube.cpp:128:6:void Cube::incCurrentMode()	0	static
+Cube.cpp:137:6:void Cube::decCurrentMode()	0	static
+Cube.cpp:146:6:void Cube::clearCube()	0	static
+Cube.cpp:260:6:void Cube::setTextString(char*, uint8_t)	0	static
+Cube.cpp:571:6:void Cube::drawCube(uint8_t, uint8_t, uint8_t, uint8_t)	80	static
+Cube.cpp:449:6:void Cube::woopWoop()	24	static
+Cube.cpp:493:6:void Cube::cubeJump()	24	static
+Cube.cpp:591:6:void Cube::setWall(Axis, uint8_t)	32	static
+Cube.cpp:616:6:void Cube::shift(Direction)	24	static
+Cube.cpp:351:6:void Cube::walk_and_flying_Wall()	48	static

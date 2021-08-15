@@ -1,0 +1,7 @@
+main.c:119:6:HAL_ADC_ConvCpltCallback	8	static
+main.c:128:6:HAL_SPI_TxCpltCallback	0	static
+main.c:140:6:HAL_UART_RxCpltCallback	0	static
+main.c:156:6:HAL_TIM_PeriodElapsedCallback	8	static
+main.c:298:6:SystemClock_Config	88	static,ignoring_inline_asm
+main.c:172:5:main	80	static,ignoring_inline_asm
+main.c:632:6:Error_Handler	0	static,ignoring_inline_asm
