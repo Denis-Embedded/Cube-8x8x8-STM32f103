@@ -11,7 +11,7 @@
 extern FontDef Font_7x10;
 extern FontDef Font_11x18;
 extern FontDef Font_16x26;
-extern uint16_t IsButtonsPressed;
+extern FlagUnion IsButtonPressed;
 uint8_t IsModeSwithced = 1;
 enum Modes CurrentMode = WALKINGCUBE;  //Режим по умолчанию - ходячий куб
 const uint16_t Timers_cube[TOTAL_MODES] =
@@ -61,16 +61,16 @@ void SwitchingModes()
 	draw_string(8, 63, "LB", Font_7x10, COLOR_WHITE, COLOR_RED);
     }
 
-    if ((IsButtonsPressed >> LB) & 1)
+    if ((IsButtonPressed.IsButtonPressedRx >> LB) & 1)
     {
-	IsButtonsPressed &= ~(1 << LB);
+	IsButtonPressed.IsButtonPressedRx &= ~(1 << LB);
 	CurrentMode = ((int8_t)CurrentMode + 1) % TOTAL_MODES; //учет переполнения сверху
 	Speed = Timers_cube[CurrentMode];
 	IsModeSwithced = 1;
     }
-    if ((IsButtonsPressed >> LU) & 1)
+    if ((IsButtonPressed.IsButtonPressedRx >> LU) & 1)
     {
-	IsButtonsPressed &= ~(1 << LU);
+	IsButtonPressed.IsButtonPressedRx &= ~(1 << LU);
 	CurrentMode = (int8_t) CurrentMode - 1 < 0 ?
 		       TOTAL_MODES - 1 : (int8_t) CurrentMode - 1; //учет переполнения снизу
 	Speed = Timers_cube[CurrentMode];
@@ -124,9 +124,9 @@ void ShowingCurrentMode()
     /*---------------Отображение скорости(без выравнивания)------------------*/
 
     /*---------------Обработка кнопок(изменение скорости)------------------*/
-    if ((IsButtonsPressed >> RB) & 1)
+    if ((IsButtonPressed.IsButtonPressedRx >> RB) & 1)
     {
-	IsButtonsPressed &= ~(1 << RB);
+	IsButtonPressed.IsButtonPressedRx &= ~(1 << RB);
 
 	Speed += 10;
 	if (Speed > 1000)
@@ -135,9 +135,9 @@ void ShowingCurrentMode()
 	}
 
     }
-    if ((IsButtonsPressed >> RU) & 1)
+    if ((IsButtonPressed.IsButtonPressedRx >> RU) & 1)
     {
-	IsButtonsPressed &= ~(1 << RU);
+	IsButtonPressed.IsButtonPressedRx &= ~(1 << RU);
 
 	Speed = (int16_t)Speed - 10 < 0? 0 : Speed - 10;
     }

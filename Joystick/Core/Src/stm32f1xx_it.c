@@ -67,10 +67,11 @@ extern TIM_HandleTypeDef htim4;
 extern uint8_t RecievedMode;
 extern uint8_t SynchroFlag;
 extern uint8_t g_DrawChrgBmp;
+extern FlagUnion IsButtonPressed;
 volatile uint16_t buttFlags = 0;			//Полуслово флагов
 //volatile uint16_t buttStatuses = 0;			//Полуслово состояний UPD: не нужно
  uint32_t IntTimeIRQ[9];			//Массив из моментов последних нажатий (срабатываний прерываний)
-volatile uint16_t IsButtonsPressed = 0;		//флаг, который показывает, что нажатие кнопки нужно обработать
+//volatile uint16_t IsButtonsPressed = 0;		//флаг, который показывает, что нажатие кнопки нужно обработать
 
 void Post_Processing_Buttons()
 {
@@ -97,20 +98,17 @@ void Post_Processing_Buttons()
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
     EXTI->IMR &= ~(GPIO_Pin);
-    //NVIC_ClearPendingIRQ();
-    IsButtonsPressed |= GPIO_Pin;
-    uint8_t TxBuff[2] = {(IsButtonsPressed & 0xff), (IsButtonsPressed >> 8 & 0xFF)};//важно чтобы младшие биты шли справа
-    //char str[20] = "";
-    //sprintf(str, "%d\n", IsButtonsPressed);
-    HAL_TIM_Base_Start_IT(&htim4);
-    HAL_UART_Transmit(&huart3, TxBuff, 2, 1000);
-    //HAL_UART_Receive_IT(&huart3, &RecievedMode, 1);
-    buttFlags |= GPIO_Pin;
-	if((IsButtonsPressed >> LL) & 1) //вызов синхронизации
-	{
-	    IsButtonsPressed &= ~(1 << LL);//TODO: отладить с помощью брейкпоинта синхрофлаг
-	    SynchroFlag = 1;
 
+    IsButtonPressed.IsButtonPressedRx |= GPIO_Pin;
+
+    HAL_TIM_Base_Start_IT(&htim4);
+    HAL_UART_Transmit(&huart3, IsButtonPressed.IsButtonPressedRxBuff, 2, 1000);
+
+    buttFlags |= GPIO_Pin;
+	if((IsButtonPressed.IsButtonPressedRx >> LL) & 1) //вызов синхронизации
+	{
+	    IsButtonPressed.IsButtonPressedRx &= ~(1 << LL);//TODO: отладить с помощью брейкпоинта синхрофлаг
+	    SynchroFlag = 1;
 	}
 }
 

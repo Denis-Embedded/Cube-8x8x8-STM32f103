@@ -52,11 +52,11 @@ enum Shifts //Сдвиги для обработки кнопок
 	OK
 };
 
-//typedef union
-//{
-//		uint8_t TxBuffer = {0,};
-//		uint16_t IsButtonPressed;
-//};
+typedef union
+{
+   uint8_t IsButtonPressedRxBuff[2];
+   uint16_t IsButtonPressedRx;
+}FlagUnion;
 /* USER CODE END ET */
 
 /* Exported constants --------------------------------------------------------*/

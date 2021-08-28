@@ -65,12 +65,10 @@ TIM_HandleTypeDef htim4;
 UART_HandleTypeDef huart3;
 
 /* USER CODE BEGIN PV */
-//extern uint16_t buttStatuses = 0;						//Полуслово состояний
-//extern uint16_t buttFlags = 0;						//Полуслово флагов
-//extern uint32_t IntTimeIRQ[9] = {0,};					//Массив из моментов последних нажатий (срабатываний прерываний)
-extern uint16_t IsButtonsPressed;				//флаг, который показывает, что нажатие кнопки нужно обработать
+FlagUnion IsButtonPressed;
+//extern uint16_t IsButtonsPressed;				//флаг, который показывает, что нажатие кнопки нужно обработать
 //[bit 16..9] | [bit 8] | [bit7] | [bit6] | [bit5] | [bit4] | [bit3] | [bit2] | [bit1] | [bit0]
-//Reset State	   OK   	RR       RU       RL       RB       LR       LU       LL       LB
+//Reset State	   OK       RR       RU       RL       RB       LR       LU       LL       LB
 //                EXTI8    EXTI7    EXTI6    EXTI5    EXTI4    EXTI3    EXTI2    EXTI1   EXTI0
 
 uint8_t RecievedMode = 0;					//Получаемый режим от куба
@@ -236,10 +234,10 @@ menumode_t CurrentMode = ShowingCurrentMode;
 //	  		fill_rectangle(0, 0, 220, 176, COLOR_SILVER);
 //	  		IsButtonsPressed&= ~(1 << LL);
 //	  	  }
-	if ((IsButtonsPressed >> OK) & 1)
+	if ((IsButtonPressed.IsButtonPressedRx >> OK) & 1)
 	{
 	    MenuMode ^= 1;          //инвертируем флаг по нажатию на кнопку OK
-	    IsButtonsPressed &= ~(1 << OK);
+	    IsButtonPressed.IsButtonPressedRx &= ~(1 << OK);
 
 	    IsModeSwithced = 1;
 	    fill_rectangle(0, 0, 220, 164, COLOR_RED);
